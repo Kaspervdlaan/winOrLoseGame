@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: darkslategray;
+    flex-direction: column;
+    gap: 20px;
+    font-family: Calibri, sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    display: flex;
+    gap: 20px;
+}
+
+#canvas {
+    background-color: #181818;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
